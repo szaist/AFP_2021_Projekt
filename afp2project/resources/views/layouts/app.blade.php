@@ -79,7 +79,10 @@
             @yield('content')
         </main>
     </div>
+<<<<<<< Updated upstream
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ mix('css/app.css') }}"></script>
+=======
+>>>>>>> Stashed changes
 </body>
 </html>
