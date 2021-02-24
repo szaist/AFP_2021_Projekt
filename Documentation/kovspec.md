@@ -10,6 +10,30 @@ A jelenlegi kellemetlen helyzetben sok középiskolás tanuló, egyetemi hallgat
 
 A projekt célja egy e-learning típusú alkalmazás megvalósítása. A rendszer webes felülettel kell rendelkezzen ami platform független. Minden funkció felhasználókhoz kötött kell legyen azaz csak sikeres regisztráció és bejelentkezés után használhatóak. Akik nem rendelkeznek fiókokkal látogatóknak minősülnek és csak egy betekintést kapnak a weboldal funkcióiba. Megtekinthetik az elérhető kurzusokat is, de a tartalmukat nem érik el. A felhasználók kurzusokat hozhatnak létre amelyekben matematikai típusú tananyagokat, feladatokat, videókat tölthetnek fel. A kurzusok létrehozása során, készíthetnek komplexebb vagy szimplább sémájú kurzusokat, attól függően, hogy milyen céllal, milyen témával fog rendelkezni. A többi felhasználó jelentkezhet a kurzusokra de nem módosíthatja azt, csak a sajátjait. A kurzusok sorány nyomon követheti saját előrehaladását, mérföldköveket érhet el, kérdéseket tehet fel és véleményezheti az adott kurzust. A rendszert egy webes keretrendszer használatával kellene megvalósítani, a fejlesztés megkönnyebítésének érdekében. A felhasználókon felül kell egy magasabb rendű felhasználó egy úgynevezett adminisztrátor aki teljes hozzáféréssel rendelkezik a rendszerben. Az esetleges hibákat neki jelzik a felhasználók. Korlátlanul módosíthatja, törölheti bármelyik kurzust valamint a felhasználók adatait is módosíthatja vagy adhat hozzá új felhasználót. Természetesen egy egyszerű felhasználóként is viselkedhet ez a jogkör. Ha a felmerülő problémát nem tudja orvosolni akkor tud jelezni a fejlesztők felé.
 
+## 4. Funkcionális követelmények
+
+1. Bejelentkezési felület
+2. Regisztrációs felület
+3. Kurzusok menüpont
+    - Kurzus jelentkezés
+    - Kurzus ismertető
+    - Kurzus szerkesztés (Kurzus tulajdonos, Admin)
+    - Kurzus törlés (Kurzus tulajdonos, Admin)
+    - Mérföldkövek teljesítése
+4. Beállítások
+    - Módosítható felhasználónév
+    - Jelszó módosítás
+    - Email cím módosítás
+5. Adatlap
+    - Teljesített kurzusok
+    - Függőben lévő kurzusok
+    - Kívánságlistán lévő kurzusok
+    - Saját kurzusaim
+6. Admin panel
+    - Felhasználók kezelése (hozzáadás/törlés/módosítás)
+    - Kurzusok kezelése (hozzáadás/törlés/módosítás)
+
+Jogosultsági szintek: Vendég - Felhasználó - Admin
 ## 7. Igényelt üzleti folyamatok modellje
 
 1. Bejelentkezés
