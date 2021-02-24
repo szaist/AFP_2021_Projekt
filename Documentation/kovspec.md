@@ -9,3 +9,54 @@ A jelenlegi kellemetlen helyzetben sok középiskolás tanuló, egyetemi hallgat
 ## 3.Vágyálom rendszer
 
 A projekt célja egy e-learning típusú alkalmazás megvalósítása. A rendszer webes felülettel kell rendelkezzen ami platform független. Minden funkció felhasználókhoz kötött kell legyen azaz csak sikeres regisztráció és bejelentkezés után használhatóak. Akik nem rendelkeznek fiókokkal látogatóknak minősülnek és csak egy betekintést kapnak a weboldal funkcióiba. Megtekinthetik az elérhető kurzusokat is, de a tartalmukat nem érik el. A felhasználók kurzusokat hozhatnak létre amelyekben matematikai típusú tananyagokat, feladatokat, videókat tölthetnek fel. A kurzusok létrehozása során, készíthetnek komplexebb vagy szimplább sémájú kurzusokat, attól függően, hogy milyen céllal, milyen témával fog rendelkezni. A többi felhasználó jelentkezhet a kurzusokra de nem módosíthatja azt, csak a sajátjait. A kurzusok sorány nyomon követheti saját előrehaladását, mérföldköveket érhet el, kérdéseket tehet fel és véleményezheti az adott kurzust. A rendszert egy webes keretrendszer használatával kellene megvalósítani, a fejlesztés megkönnyebítésének érdekében. A felhasználókon felül kell egy magasabb rendű felhasználó egy úgynevezett adminisztrátor aki teljes hozzáféréssel rendelkezik a rendszerben. Az esetleges hibákat neki jelzik a felhasználók. Korlátlanul módosíthatja, törölheti bármelyik kurzust valamint a felhasználók adatait is módosíthatja vagy adhat hozzá új felhasználót. Természetesen egy egyszerű felhasználóként is viselkedhet ez a jogkör. Ha a felmerülő problémát nem tudja orvosolni akkor tud jelezni a fejlesztők felé.
+
+## 7. Igényelt üzleti folyamatok modellje
+
+1. Bejelentkezés
+	
+2. Regisztráció
+3. Kurzusok (Vendég felhasználók láthatják a már meglévő kurzusokat)
+    1. Kurzus kiválasztása
+    2. Kurzus szerkesztése
+    3. Kurzus törlése
+    4. Mérföldkövek
+4. Admin jogosultsággal (Ha be van jelentkezve a felhasználó és admin is egyben)
+	1. Kurzus létrehozása
+	2. Kurzus szerkesztése
+	3. Kurzus törlése
+	4. Felhasználók kezelése
+5. Adatlap (Ha be van jelentkezve a felhasználó)
+   1. Teljesített kurzusok
+   2. Függőben lévő kurzusok
+   3. Kívánságlistán lévő kurzusok
+6. Beállítások (Ha be van jelentkezve a felhasználó)
+
+## 8. Követelménylista
+
+Modul | ID | Név | Kifejtés
+--- | --- | --- | ----------------------------------------------------------------------
+Jogosultság | K1 | Bejelentkezési felület | A felhasználó a felhasználónevével és jelszava segítségével jelentkezhet be. Nem megfelelő felhasználónév vagy jelszó esetén, a felhasználó hibaüzenetet kap.
+Jogosultság | K2 | Regisztrációs felület | A felhasználó felhasználónév, e-mail cím és jelszó megadásával regisztrálhatja magát. A jelszó tárolása kódolt formában történik az adatbázisban. Bármely adat hiánya vagy a követelményeknek való nem megfelelése esetén, a felhasználó hibaüzenetet kap.
+Modifikáció | K3 | Felhasználó módosítása | A felhasználó módosítani tudja saját Felhasználónevét. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése, valamint a felhasználó jelszavának megadása.
+Modifikáció | K4 | Jelszó Módosítása | A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése.
+Modifikáció | K5 | Elfelejtett felhasználónév / jelszó | Ha a felhasználó elfelejtette a felhasználónevét, vagy jelszavát akkor ezzel az opcióval egy Adminhoz tud fordulni.
+Jogosultság | K6 | Jogosultsági szintek | -Admin <br> -Felhasználó
+Kurzusok | K7 | Kurzus létrehozása | A felhasználó létre tud hozni egy kurzust
+Kurzusok | K8 | Kurzus kiválasztása | A felhasználó ki tudja választani azt a kurzust, amelyikre szüksége van
+Kurzusok | K9 | Kurzus szerkesztése | A felhasználó szekeszteni tudja a saját kurzusát
+Kurzusok | K10 | Kurzus törlése | A felhasználó törölni tudja a saját kurzusát
+Felület | K11 | Adatlap | A felhasználó részletes adatai, mérföldkövekkel.
+Mérföldkövek | K12 | Mérföldkövek | Progress nyomonkövetése
+
+## 9. Fogalomtár
+
+- **UML** - Unified Modeling Language
+- **Releváns** - fontos, lényeges, meghatározó, jelentős
+- **Corrective Maintenance:** A felhasználók által felfedezett és "user reportban"
+elküldött hibák kijavítása.
+- **Adaptive Maintenance:** A program naprakészen tartása és finomhangolása.
+- **Perfective Maintenance:** A szoftver hosszútávú használata érdekében végzett
+módosítások, új funkciók, a szoftver teljesítményének és működési
+megbízhatóságának javítása.
+- **Preventive Maintenance:** Olyan problémák elhárítása, amelyek még nem
+tűnnek fontosnak, de később komoly problémákat okozhatnak.
