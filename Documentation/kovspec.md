@@ -8,7 +8,7 @@ A jelenlegi kellemetlen helyzetben sok középiskolás tanuló, egyetemi hallgat
 
 ## 3.Vágyálom rendszer
 
-A projekt célja egy e-learning típusú alkalmazás megvalósítása. A rendszer webes felülettel kell rendelkezzen ami platform független. Minden funkció felhasználókhoz kötött kell legyen azaz csak sikeres regisztráció és bejelentkezés után használhatóak. Akik nem rendelkeznek fiókokkal látogatóknak minősülnek és csak egy betekintést kapnak a weboldal funkcióiba. Megtekinthetik az elérhető kurzusokat is, de a tartalmukat nem érik el. A felhasználók kurzusokat hozhatnak létre amelyekben matematikai típusú tananyagokat, feladatokat, videókat tölthetnek fel. A kurzusok létrehozása során, készíthetnek komplexebb vagy szimplább sémájú kurzusokat, attól függően, hogy milyen céllal, milyen témával fog rendelkezni. A többi felhasználó jelentkezhet a kurzusokra de nem módosíthatja azt, csak a sajátjait. A kurzusok sorány nyomon követheti saját előrehaladását, mérföldköveket érhet el, kérdéseket tehet fel és véleményezheti az adott kurzust. A rendszert egy webes keretrendszer használatával kellene megvalósítani, a fejlesztés megkönnyebítésének érdekében. A felhasználókon felül kell egy magasabb rendű felhasználó egy úgynevezett adminisztrátor aki teljes hozzáféréssel rendelkezik a rendszerben. Az esetleges hibákat neki jelzik a felhasználók. Korlátlanul módosíthatja, törölheti bármelyik kurzust valamint a felhasználók adatait is módosíthatja vagy adhat hozzá új felhasználót. Természetesen egy egyszerű felhasználóként is viselkedhet ez a jogkör. Ha a felmerülő problémát nem tudja orvosolni akkor tud jelezni a fejlesztők felé.
+A projekt célja egy e-learning típusú alkalmazás megvalósítása. A rendszer webes felülettel kell rendelkezzen ami platform független. Minden funkció felhasználókhoz kötött kell legyen azaz csak sikeres regisztráció és bejelentkezés után használhatóak. Akik nem rendelkeznek fiókokkal látogatóknak minősülnek és csak egy betekintést kapnak a weboldal funkcióiba. Megtekinthetik az elérhető kurzusokat is, de a tartalmukat nem érik el. A felhasználók kurzusokat hozhatnak létre amelyekben matematikai típusú tananyagokat, feladatokat, videókat tölthetnek fel. A kurzusok létrehozása során, készíthetnek komplexebb vagy szimplább sémájú kurzusokat, attól függően, hogy milyen céllal, milyen témával fog rendelkezni. A többi felhasználó jelentkezhet a kurzusokra de nem módosíthatja azt, csak a sajátjait. A kurzusok során nyomon követheti saját előrehaladását, mérföldköveket érhet el, kérdéseket tehet fel és véleményezheti az adott kurzust. A rendszert egy webes keretrendszer használatával kellene megvalósítani, a fejlesztés megkönnyebítésének érdekében. A felhasználókon felül kell egy magasabb rendű felhasználó egy úgynevezett adminisztrátor aki teljes hozzáféréssel rendelkezik a rendszerben. Az esetleges hibákat neki jelzik a felhasználók. Korlátlanul módosíthatja, törölheti bármelyik kurzust valamint a felhasználók adatait is módosíthatja vagy adhat hozzá új felhasználót. Természetesen egy egyszerű felhasználóként is viselkedhet ez a jogkör. Ha a felmerülő problémát nem tudja orvosolni akkor tud jelezni a fejlesztők felé.
 
 ## 4. Funkcionális követelmények
 
@@ -38,6 +38,22 @@ Jogosultsági szintek: Vendég - Felhasználó - Admin
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
 Opensource szoftver. Bárki által letölthető és felhasználható. Az értékesítése nem megengedett!
+
+## 6. Jelenlegi üzleti folyamatok modellje
+
+Jelenleg a projektünkhöz hasonló kurzus megosztó oldalakon nem tudsz saját kurzust létrehozni, ezért szeretnénk ezt megvalósítani. A másik hátránya a meglévő oldalaknak az, hogy előfizetés nélkül korlátozott a hozzáférés.
+
+1. Bejelentkezés
+    - 1.1 Előfizetés
+        - Kurzusok felvétele
+        - Kurzusok megtekintése
+        - Kurzusok értékelése
+    - 1.2 Beállítások
+        - Email módosítás
+        - Jelszó módosítás
+    - 1.3 Kurzus betekintő
+    - 1.4 Kijelentkezés
+2. Regisztráció
 
 ## 7. Igényelt üzleti folyamatok modellje
 
