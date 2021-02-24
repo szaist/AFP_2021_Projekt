@@ -34,6 +34,11 @@ A projekt célja egy e-learning típusú alkalmazás megvalósítása. A rendsze
     - Kurzusok kezelése (hozzáadás/törlés/módosítás)
 
 Jogosultsági szintek: Vendég - Felhasználó - Admin
+
+## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
+
+Opensource szoftver. Bárki által letölthető és felhasználható. Az értékesítése nem megengedett!
+
 ## 7. Igényelt üzleti folyamatok modellje
 
 1. Bejelentkezés
