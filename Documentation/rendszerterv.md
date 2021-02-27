@@ -23,6 +23,10 @@ A rendszer egy matematikai tanulmányokat megsegítő weblap. A legfőbb funkci�
   - Integtrációs teszt
 12. Átadás
 
+## 3. Üzleti folyamatok modellje
+
+![Üzleti modell](../Documentation/Images/rendszertervkep.PNG)
+
 ## 4. Követelmények
 
 **Funkcionális követelmények**
