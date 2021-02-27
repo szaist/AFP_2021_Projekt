@@ -93,3 +93,7 @@ A rendszer egy matematikai tanulmányokat megsegítő weblap. A legfőbb funkci�
 
 ## 7. Architekturális terv
  A rendszer mögött van egy adatbázis, ebben az esetben egy MYSQL. A weblaphoz PHP Laravel frameworkot használunk és emellett Node JS-t is. A megjelenítésért a Bootstrap felel.
+
+## 12. Karbantartási terv
+A felhasználók egy report formájában tudják jelenteni a felmerűlő funkcionális hibákat és az adminok tudják javítani.
+A javított hibák egy oldalon Changelog vagy hír formában meg fognak jelenni visszajelzésként a felhasználók felé, az új funkciók / frissítésekkel együtt.
