@@ -33,3 +33,17 @@ Jelenleg a projektünkhöz hasonló kurzus megosztó oldalakon nem tudsz saját 
    2. Függőben lévő kurzusok
    3. Kívánságlistán lévő kurzusok
 6. Beállítások (Ha be van jelentkezve a felhasználó)
+
+## 6. Használati esetek
+
+- Vendég:
+    - Megtekintheti a kurzusokat, de nem hozhatnak létre újat, és nem jelentkezhetnek azokra.
+- Felhasználó
+    - Megtekintheti a kurzusokat és jelentkezhet azokra. Mérföldköveket érhet el a kurzusban való haladással, és ezeket meg is tekintheti.
+    - Létrehozhat saját kurzusokat és ahhoz tartozó mérföldköveket is.
+    - Lehetősége van gyakorolni a kurzusokhoz hozzáadott feladatok segítségével.
+- Adminisztrátor
+    - Képes felhasználókat kezelni, módosítani, törölni.
+    - Szerkesztheti, törölheti a kurzusokat.
+    - Gondoskodni tud az egyes hibák kijavításáról.
+    - Abban az esetben ha nem tudja megoldani akkor tud szólni a programozóknak akik tudják javítani a hibát.
