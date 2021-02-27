@@ -6,6 +6,27 @@ A rendszer a matematikai tanulmányok megsegítésére szolgáló alkalmazást k
 
 A jelenlegi kellemetlen helyzetben sok középiskolás tanuló, egyetemi hallgató szorul az internet segítségére tanulmányaik sikeres elsajátításának érdekében. Ezt a tanárok és oktatók is egyre inkább ajánlják, szorgalmazzák a tanulók, hallgatók felé. A mostani online oktatás megsegítésének érdekében tervezzük létrehozni ezt az alkalmazást. Itt lehetőségük van a diákoknak együtt tanulniuk az esetleges problémákat együtt értelmezniük megoldaniuk. Itt segítséget kapnak azon diákok, akik egyes részeket nem értenek. Természetesen nem csak tanulók számára szól a rendszer hanem bárkinek aki tudásra szomjazik. Az interneten fellelhetőek ezen célból megvalósított weboldalak, alkalmazások, de ezek általában fizetősek, havi díj fizetése esetén elérhetőek. A legfontosabb számunkra, hogy ezt teljesen ingyenes kínáljuk mindenki számára, hiszen nem célünk a tudást pénz mögé rejteni. Ezen felületen mindenki megoszthatja a többiekkel tudását. Így ha mindenki megosztja a tudását azon területről amiben ő erős, elérhetjük azt, hogy mindenki egységesen felzárkózik az iskolában elvárt szintre, tanulhatnak egymástól a diákok az alapján, hogy ki miben erős. Lehetőségük lesz a tanároknak is tananyagaikat ide feltölteni a tanulók számára, feladatok megosztására. Jelenleg a többi rendszer mondhatni elavult, bonyolult ezért szükséges egy egyszerűbb, modernebb környezet kialakítása. Mindezek összességével elérhetjük, hogy tanulók, hallgatók jobb eredményeket érjenek el, sikeres vizsgákat tegyenek tanulmányaik során ebben a nehéz helyzetben.
 
+## 3. Követelménylista
+
+1. Bejelentkezési felület
+    - A felhasználók ezen a felületen jelentkeznek be a weboldalra a bővebb elérés érdekében
+    - Bejelentkezés után elérhetővé válnak a weboldal funkciói
+2. Regisztrációs felület
+    - A felhasználók itt tudnak beregisztrálni a weboldalra
+    - Regisztráció nélkül nem elérhetőek a weboldal funkciói
+3. Kurzusok menüpont
+    - A felhasználók itt tudnak jelentkezni, létrehozni kurzusokat
+    - A felhasználók itt ismerhetik meg egy adott kurzus témáját
+    - Itt módosíthatok a kurzusok, itt törölhetők azok (adminisztrátor, kurzus tulajodonos)
+    - Itt követhető nyomon egy adott felhasználó előrehaladása
+    - A felhasználók itt érik el a mérföldköveiket
+4. Beállítások menüpont
+    - Itt módosíthatják a felhasználók a felhasználó nevüket, jelszavukat és e-mail címüket
+5. Adatlap menüpont
+    - Itt jelenik meg a teljesített, függőben lévő kurzusok listája valamint az éppen aktív kurzusoké
+6. Admin panel
+    - Felhasználók valamint kurzusok módosítása, törlése az adminisztrátor számára
+    
 ## 4. Jelenlegi üzleti folyamatok modellje
 
 Jelenleg a projektünkhöz hasonló kurzus megosztó oldalakon nem tudsz saját kurzust létrehozni, ezért szeretnénk ezt megvalósítani. A másik hátránya a meglévő oldalaknak az, hogy előfizetés nélkül korlátozott a hozzáférés.
