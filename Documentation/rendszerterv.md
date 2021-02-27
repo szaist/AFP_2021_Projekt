@@ -52,3 +52,13 @@
 
   - **Menü-hierarchiák:**
 
+## 6. Fizikai környezet
+  - Az alkalmazás csak web platformra készül.
+  - Nincsenek megvásárolt komponensek.
+  - **Fejlesztői eszközök:**
+    - Visual Studio Code
+    - Notepad++
+    - Sublime text 3
+    - MySQL Workbench
+    - HediSQL 
+
