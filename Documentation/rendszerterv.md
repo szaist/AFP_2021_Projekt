@@ -25,3 +25,30 @@
   **Törvényi előírások, szabványok:**
   - GDPR-nak való megfelelés
   - Tervezési mintáknak való megfelelés.
+
+  ## 5. Funkcionális terv
+
+  **Rendszerszereplők:**
+  - Adminisztrátor
+  - Felhasználó
+  - Vendég
+
+  **Rendszerhasználati esetek és lefutásaik:**
+  - **Adminisztrátor**
+    - Felhasználók adatainak módosítása, felhasználók törlése
+    - Kurzusok hozzáadása, kurzusok módosítása
+    - Hibák javítása, adott esetben hiba jelzése a programozóknak.
+  - **Felhasználó**
+    - Kurzus felvétel
+    - Kurzus leadás
+    - Kurzus felvétele a kívánságlistára
+    - Saját kurzus létrehozása
+    - Saját kurzusok szerkesztése
+
+  - **Vendég**
+    - Kurzusok megtekintése
+    - Regisztráció
+    - Bejelentkezés
+
+  - **Menü-hierarchiák:**
+
