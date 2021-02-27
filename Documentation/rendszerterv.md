@@ -91,3 +91,5 @@ A rendszer egy matematikai tanulmányokat megsegítő weblap. A legfőbb funkci�
     - MySQL Workbench
     - HediSQL 
 
+## 7. Architekturális terv
+ A rendszer mögött van egy adatbázis, ebben az esetben egy MYSQL. A weblaphoz PHP Laravel frameworkot használunk és emellett Node JS-t is. A megjelenítésért a Bootstrap felel.
