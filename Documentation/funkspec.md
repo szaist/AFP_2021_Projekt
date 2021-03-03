@@ -77,5 +77,42 @@ Jelenleg a projektünkhöz hasonló kurzus megosztó oldalakon nem tudsz saját 
     - Gondoskodni tud az egyes hibák kijavításáról.
     - Abban az esetben ha nem tudja megoldani akkor tud szólni a programozóknak akik tudják javítani a hibát.
 
+## 7. Képernyő tervek
 
+Főoldalterv:
 
+![Főoldalterv](../Documentation/Images/Főoldal.png)
+
+Bejelentkezés terv:
+
+![Bejelentkezés](../Documentation/Images/Bejelentkezés.png)
+
+Regisztráció terv:
+
+![Regisztráció](../Documentation/Images/Regisztráció.png)
+
+Étterem kiválasztása adott városban terv:
+
+![Étterem adott városban](../Documentation/Images/Lectures.png)
+
+Admin panel terv:
+
+![Admin panel](../Documentation/Images/Admin_panel.png)
+
+## 8. Forgatókönyv
+
+Futási időben sok szereplő figyelhető meg. Egy szereplő létrehozza a kvízt, a többi pedig csatlakozhat a kvízhez ez megfelelő kvízazonosító megadása után majd elkezdhetik a kvíz kitöltését. A kvíz résztvevői a teljesítményük alapján pontot kapnak, az idő és a jó válaszok függvényében. A kvíz végén megjelenik a toplista az összes felhasználóval és pontszámával együtt, ahol össze lehet hasonlítani a felhasználók teljesítményét és le is lehet menteni a listát egy táblázat formájában. <br>
+A felhasználók mérföldköveket tudnak elérni a kvízek kitöltésével, melyet a saját profil fölün nyomon tudnak követni. Mindez szemlélteti egyes felhasználók aktivitását és teljesítményét is.
+
+## 9. Fogalomszótár
+
+- **UML** - Unified Modeling Language
+- **Releváns** - fontos, lényeges, meghatározó, jelentős
+- **Corrective Maintenance:** A felhasználók által felfedezett és "user reportban"
+elküldött hibák kijavítása.
+- **Adaptive Maintenance:** A program naprakészen tartása és finomhangolása.
+- **Perfective Maintenance:** A szoftver hosszútávú használata érdekében végzett
+módosítások, új funkciók, a szoftver teljesítményének és működési
+megbízhatóságának javítása.
+- **Preventive Maintenance:** Olyan problémák elhárítása, amelyek még nem
+tűnnek fontosnak, de később komoly problémákat okozhatnak.
