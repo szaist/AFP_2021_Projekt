@@ -94,6 +94,78 @@ A rendszer egy matematikai tanulmányokat megsegítő weblap. A legfőbb funkci�
 ## 7. Architekturális terv
  A rendszer mögött van egy adatbázis, ebben az esetben egy MYSQL. A weblaphoz PHP Laravel frameworkot használunk és emellett Node JS-t is. A megjelenítésért a Bootstrap felel.
 
+## 8. Adatbázis terv
+
+**DSL**
+```
+CREATE TABLE `lecture` (
+	`lid` INT NOT NULL AUTO_INCREMENT,
+	`Name` varchar(100) NOT NULL AUTO_INCREMENT,
+	PRIMARY KEY (`cid`)
+);
+
+CREATE TABLE `topic` (
+	`tid` INT NOT NULL AUTO_INCREMENT,
+	`tname` varchar(200) NOT NULL AUTO_INCREMENT,
+	`tprice` INT(11) NOT NULL,
+	`userid` INT(11) NOT NULL,
+	PRIMARY KEY (`fid`)
+);
+
+CREATE TABLE `users` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`username` varchar(200) NOT NULL UNIQUE,
+	`email` varchar(200) NOT NULL,
+	`password` varchar(200) NOT NULL,
+	`flags` INT(11) NOT NULL,
+	PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `milestone` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`name` varchar(200) NOT NULL,
+	`earned` INT(11) NOT NULL,
+	`achivement_point` INT(11) NOT NULL,
+	`description` INT(11) NOT NULL,
+	`lecId` INT(11) NOT NULL,
+	PRIMARY KEY (`id`)
+);
+
+ALTER TABLE `topic` ADD CONSTRAINT `topic_fk0` FOREIGN KEY (`userid`) REFERENCES `milestone`(`id`);
+
+ALTER TABLE `milestone` ADD CONSTRAINT `milestone_fk0` FOREIGN KEY (`lecId`) REFERENCES `lecture`(`lid`);
+
+
+```
+
+
+ ## 9. Implementációs terv
+
+A webes felület HTML, CSS és PHP nyelven fog készülni. A különböző technológiákat amennyire lehet, külön fájlokba írva készítjük el, úgy csatoljuk egymáshoz. Így átláthatóbb, könnyebben változtatható és bővíthető lesz. A felhasználók, városok, éttermek és rendelések adatait egy MySql adatbázisban fogjuk tárolni. A reszponzív webdesign-t Bootstrap-pel fogjuk biztosítani.
+
+ ## 10. Tesztterv
+
+Az alább leírt tesztelések célja a rendszer és funkcióinak teljes körű vizsgálata, ellenőrzése a megfelelő működés érdekében.
+
+Linkek, gombok tesztelése: a teszt célja a weboldalon megjelenő linkek és gombok megfelelő működésének ellenőrzése.
+A weboldal és az adatbázis kapcsolatának vizsgálata: fel kell tudnia tölteni az adatbázist a megfelelő adatokkal és vissza kell tudnia adni azokat. Törlési, hozzáadási, módosítási műveletek tesztelése. A jelszavak megfelelő tárolásának ellenőrzése, vagyis minden jelszó titkosításának (hashelésének) ellenőrzése.
+Hibás, hiányos adatok esetén adott hibaüzenetek ellenőrzése.
+Kiléptető rendszer tesztelése, egy nap után ki kell jelentkeztetnie a felhasználót.
+Számla nyomtatás működésének ellenőrzése.
+Étterem értékelés működésének vizsgálata.
+A weboldal helyes működésének ellenőrzése különböző böngészőkben pl. Firefox, Google Chrome…
+
+## 11. Telepítési terv
+
+1. Apache telepítése
+2. MySQL server telepítése
+3. Forráskód importálása
+4. SQL importálása
+
+1. Webserver bérlése
+2. Forráskód Importálása
+3. Adatbázis importálása
+
 ## 12. Karbantartási terv
 A felhasználók egy report formájában tudják jelenteni a felmerűlő funkcionális hibákat és az adminok tudják javítani.
 A javított hibák egy oldalon Changelog vagy hír formában meg fognak jelenni visszajelzésként a felhasználók felé, az új funkciók / frissítésekkel együtt.
