@@ -88,11 +88,11 @@ A rendszer egy matematikai tanulmányokat megsegítő weblap. A legfőbb funkci�
     - Visual Studio Code
     - Notepad++
     - Sublime text 3
-    - MySQL Workbench
+    - MongoDB
     - HediSQL 
 
 ## 7. Architekturális terv
- A rendszer mögött van egy adatbázis, ebben az esetben egy MYSQL. A weblaphoz PHP Laravel frameworkot használunk és emellett Node JS-t is. A megjelenítésért a Bootstrap felel.
+ A rendszer mögött van egy adatbázis, ebben az esetben egy MongoDB. A weblaphoz React frameworkot használunk és emellett Node JS-t is. A megjelenítésért a Bootstrap felel.
 
 ## 8. Adatbázis terv
 
@@ -141,7 +141,7 @@ ALTER TABLE `milestone` ADD CONSTRAINT `milestone_fk0` FOREIGN KEY (`lecId`) REF
 
  ## 9. Implementációs terv
 
-A webes felület HTML, CSS és PHP nyelven fog készülni. A különböző technológiákat amennyire lehet, külön fájlokba írva készítjük el, úgy csatoljuk egymáshoz. Így átláthatóbb, könnyebben változtatható és bővíthető lesz. A felhasználók, városok, éttermek és rendelések adatait egy MySql adatbázisban fogjuk tárolni. A reszponzív webdesign-t Bootstrap-pel fogjuk biztosítani.
+A webes felület HTML, CSS és PHP nyelven fog készülni. A különböző technológiákat amennyire lehet, külön fájlokba írva készítjük el, úgy csatoljuk egymáshoz. Így átláthatóbb, könnyebben változtatható és bővíthető lesz. A felhasználók, városok, éttermek és rendelések adatait egy MongoDB adatbázisban fogjuk tárolni. A reszponzív webdesign-t Bootstrap-pel fogjuk biztosítani.
 
  ## 10. Tesztterv
 
@@ -158,7 +158,7 @@ A weboldal helyes működésének ellenőrzése különböző böngészőkben pl
 ## 11. Telepítési terv
 
 1. Apache telepítése
-2. MySQL server telepítése
+2. MongoDB server telepítése
 3. Forráskód importálása
 4. SQL importálása
 
